@@ -1,0 +1,132 @@
+:root {
+    --white-color : #fff;
+    --black-color : #000;
+    --text-color  : #757575;
+    --border-color: #bdbdbd;
+    --hover-color: #ccc;
+    --text-place-holder: #fafafa;
+
+    --height-nav : 3.4rem;
+    --height-search : 8.6rem;
+    --Header-height : calc(var(--height-nav)+var(--height-search)); 
+    
+    --font-span1-8:  0.8rem;
+    --font-span2-10: 1rem;
+    --font-span3-12: 1.2rem;
+    --font-title1: 1.2rem;
+    --font-title2: 1.4rem;
+    --font-title3: 1.6rem;
+
+}
+
+* {
+    box-sizing: inherit;
+    padding: 0;
+    margin: 0;
+}
+
+html {  
+    user-select: none;
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.grid {
+    width: 100%;
+    max-width: 1200px;
+    display: block;
+    padding: 0;
+    margin: 0 auto;
+}
+
+
+/* Common */
+.Header__separate::after {
+    content: "";
+    position: absolute;
+    border-left: 0.2rem solid;
+    height: 1.6rem;
+    color: #f86c5c;
+    transform: translateX(1rem);
+}
+
+
+/* Header_notify vs sd 2 lớp giả Pseudo-class*/
+.Notify{
+    display: none ;
+    top: 150%;
+    position: absolute;
+    background-color: var(--white-color);
+    border: 1px solid var(--border-color);
+    border-radius: 2px;
+    right: 4px;
+    transform-origin: 85% 0 ;
+    will-change: opacity , transform ;
+    animation: growth 0.2s;
+    box-shadow: 0 1px 4px 0 rgb(0 0 0 / 26%);
+    z-index: 1;
+}   
+
+.Notify::after{
+    display: block;
+    content: "";
+    position: absolute;
+    border-width: 20px 26px;
+    border-style: solid;
+    border-color: transparent transparent var(--white-color) transparent;
+    right: 28px;
+    top: -30px;
+}
+
+.Notify::before{
+    display: block;
+    content: "";
+    position: absolute;
+    height: 32px;
+    width: 90px;
+    right: 10px;
+    top: -26px;
+}
+
+
+.Not_read{
+    background-color: #fff2ee;
+}
+
+
+/* Scroll - bar */
+
+.Good_scroll_bar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+} 
+
+.good_scroll{
+    display: none;
+    height: 60px;
+    width: 35px;
+    background-color: rgba(0, 0, 0, 0.2);
+    border: none;
+    outline: none;
+    border-radius: 3px;
+}
+
+.good_scroll:hover{
+    background-color: rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+}
+
+.good_scroll ion-icon{
+    width: 30px;
+    height: 30px;
+    color: #fff;
+}
+
+
