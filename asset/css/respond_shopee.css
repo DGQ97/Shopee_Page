@@ -150,6 +150,10 @@
         grid-auto-columns: 60%;
     }
 
+    .Products_main-img:hover, .Products_main-img:hover .hover-father{
+        display: none;
+    }
+
 
 
     .Content_Area5,
