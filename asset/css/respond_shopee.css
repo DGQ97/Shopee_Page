@@ -231,15 +231,14 @@
     }
  
     .Flash_sale_Area{
-        height: 286px;
+        height: 310px;
     }
  
     .Percentage_saled{
         margin-top: 6px;
-        width: 100px;
+        width: 116px;
         line-height: 12px;
         font-size: var(--font-span1-8);
- 
     }
     
     .Flase_sale_price{

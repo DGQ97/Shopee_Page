@@ -176,7 +176,7 @@
     align-items: center;
     color: rgba(0,0,0, 0.26);
     padding: 1.8rem 1.2rem;
-    cursor: pointer;
+    cursor: text;
 }
 
 #Header .Header_notify-content {
@@ -285,6 +285,7 @@
 .header_logo{
     height: 100%;
     width: 100%;
+    cursor: pointer;
 }
 
 .Cover__Search{
@@ -858,12 +859,12 @@
     position: absolute;
     top :50%;
     left:0;
-    transform: translate(0, -50%);
+    transform: translate(0, -60%);
 }
 
 .fire_img{
-    width: 18px;
-    height: 21px;
+    width: 20px;
+    height: 24px;
 }   
 
 .Font_Price-Fs{
@@ -1008,7 +1009,7 @@
     position: relative;
     width: 100%;
     height: 200px;
-    object-fit: cover;
+    cursor: pointer;
 }
 
 
@@ -1152,7 +1153,7 @@
 .main-img{
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: contain;
 }
 
 .Banner_main{
@@ -1305,6 +1306,7 @@
 
 .Price_main .vnd_icon{
     font-size: 12px;
+    padding-right: 2px;
 }
 
 
