@@ -558,6 +558,7 @@
         grid-template-rows: 1fr 1fr;
         grid-gap: 0;
         padding: 0;
+        margin: 0;
     }
 
     .sub_banner {
@@ -600,6 +601,7 @@
     .Good_products{
         white-space: nowrap;
         grid-template-columns: unset;
+        grid-template-rows: 248px;
         grid-column-gap: 6px;
         grid-auto-columns: 30%;
         scroll-behavior: smooth;
@@ -763,6 +765,11 @@
 
     .Baner_Area4{
         grid-template-rows: unset;
+    }
+
+    .Layouts_banners{
+        width: 100%;
+        height: 100%;
     }
 
     .List_Area6_header,
@@ -1002,7 +1009,7 @@
 
  
  /* >=  mobile => 480px */
- @media (max-width: 480px) {
+@media (max-width: 480px) {
     :root{
         --height-nav : 3.4rem;
         --height-search : 8.6rem;
@@ -1135,6 +1142,7 @@
     .Banners{
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 42px 42px;
+        padding-top: 0;
     }
 
     .Content_Area5{
@@ -1160,18 +1168,26 @@
     .Label_Content-area6{
         gap: 30px;
         grid-auto-columns: 46%;
+    }
 
+    .List_Area5_header,
+    .List_Area6_header{
+        padding: 0 8px;
+    }
+
+    .sub_banners,
+    .List_Product_items{
+        grid-auto-columns: 30%;
     }
 
     .Good_products{
         grid-column-gap : 8px;
         grid-auto-columns: 60%;
     }
-
-    .Products_main-img:hover, .Products_main-img:hover .hover-father{
-        display: none;
+    
+    .Look-for-Priority-Area6{
+        height: 322px;
     }
-
 
 
     .Label_Content-area6,
@@ -1184,6 +1200,14 @@
         scroll-snap-stop: always;
         -ms-overflow-style: none;
         scrollbar-width: none;  
+    }
+
+    .sub_banners{
+        margin-top: 0;
+    }
+
+    .Name_product-area6{
+        padding: 12px 2px 0 2px;
     }
 
     .Content_items_area6{
@@ -1271,21 +1295,23 @@
         text-align: center;
     }
 
-    .img_Banner_main, 
-    .img_overlayXtra, 
-    .main-img {
-        object-fit: contain;
-    }
-
     .size-social {
         margin: 0 10px 20px 1px;
         width: 18px;
         height: 18px;
     }
     
-    .Products_main-img:hover,
-    .Products_main-img:hover .hover-father{
-        display: unset;
+    .img_Banner_main, 
+    .img_overlayXtra, 
+    .main-img{
+        object-fit: contain;
     }
+
+    .Products_main-img:hover{
+        display: unset;
+    
+    }
+
+
 
 } 
