@@ -17,6 +17,10 @@
     --font-title2: 1.4rem;
     --font-title3: 1.6rem;
 
+    --desktop:1200px;
+    --laptop:992px;
+    --tablet:768px;
+    --mobile:480px;
 }
 
 * {
@@ -24,6 +28,8 @@
     padding: 0;
     margin: 0;
 }
+
+
 
 html {  
     user-select: none;
