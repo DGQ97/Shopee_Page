@@ -138,13 +138,6 @@
         opacity: 1;
     }
  }
-
- @keyframes Fadein2 {
-    100% {
-        opacity: 1;
-    }
- }
-
 @keyframes growth {
     0% {
         transform:scale(0);
@@ -784,7 +777,7 @@
 }
 
 .product-name-s{
-    font-size: 14px;
+    font-size: 13px;
     flex: 1;
     margin-top: auto;
     text-align: center;
@@ -1273,6 +1266,7 @@
 }
 
 .discount-banner-s{
+    display: block;
     height: 16px;
     font-size: 10px;
     color: white;
@@ -1281,6 +1275,7 @@
 
 
 .sub-discount{
+    display: block;
     width: 5px;
     height: 16px;
     color: #f69113;
