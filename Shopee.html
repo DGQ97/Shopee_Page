@@ -22,8 +22,9 @@
     <link rel="stylesheet" href="./asset/css/main.css">
     <link rel="stylesheet" href="./asset/css/respond_shopee.css">
     
-    <link rel="stylesheet" type="text/css" href="./asset/Slick/slick.css"/>
-    <link rel="stylesheet" type="text/css" href="./asset/Slick/slick-theme.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
     
 </head>
 <body>
@@ -171,17 +172,18 @@
                             <div class="grid">
                                 <div class="Banners" >
                                     <div class="banner-L">
-                                        <div class="Layouts_banners">
-                                            <img class="banner_img2" src="https://cf.shopee.vn/file/aa68de00c42ba72aa33a338b6f62663d_xxhdpi" alt="">
-                                            <img class="banner_img2" src="https://cf.shopee.vn/file/6eb0f529d3cbd07ee6e8fb0f37952d2b_xxhdpi" alt="">
-                                            <img class="banner_img2" src="https://cf.shopee.vn/file/9d932d0850fc09b990903a5304efd4ac_xxhdpi" alt="">
-                                            <img class="banner_img2" src="https://cf.shopee.vn/file/05dd8268f47ea80326c191610bec1f57_xxhdpi" alt="">
+                                        <div class="Layouts_banners autoplay">
+                                            <div class="layout_img2"><img src="https://cf.shopee.vn/file/aa68de00c42ba72aa33a338b6f62663d_xxhdpi" alt=""></div>
+                                            <div class="layout_img2"><img src="https://cf.shopee.vn/file/6eb0f529d3cbd07ee6e8fb0f37952d2b_xxhdpi" alt=""></div>
+                                            <div class="layout_img2"><img src="https://cf.shopee.vn/file/9d932d0850fc09b990903a5304efd4ac_xxhdpi" alt=""></div>
+                                            <div class="layout_img2"><img src="https://cf.shopee.vn/file/05dd8268f47ea80326c191610bec1f57_xxhdpi" alt=""></div>
                                         </div>
                                         <div class="Good_scroll_bar"> 
                                             <button class="good_scroll"><ion-icon name="chevron-back"></ion-icon></button>
                                             <button class="good_scroll"><ion-icon name="chevron-forward"></ion-icon></button>
                                         </div>
                                     </div>
+
 
                                     <div class="banner">
                                         <img class="banner_img" src="https://cf.shopee.vn/file/ddcd9294e42fb357b1828cfb0a706d0a_xhdpi" alt="">
@@ -2553,20 +2555,20 @@
     </div>
     
 
-        <script src="http://code.jquery.com/jquery-1.7.min.js"> </script>
-        <script src="http://code.jquery.com/jquery-1.7.js"> </script>
-        <script src="./asset/Slick/slick.min.js"></script>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.js" integrity="sha512-WNZwVebQjhSxEzwbettGuQgWxbpYdoLf7mH+25A7sfQbbxKeS5SQ9QBf97zOY4nOlwtksgDA/czSTmfj4DUEiQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     
       
         <script type="text/javascript">
-          $(document).ready(function(){
-                $('.Layouts_banners').slick({
-                slidesToShow: 1,
-                slidesToScroll: 1,
-                autoplay: true,
-                autoplaySpeed: 1600,
-                });
-          });
+        $('.autoplay').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        arrows: false
+        });
         </script>
 
     

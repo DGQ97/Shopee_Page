@@ -470,27 +470,32 @@
     grid-gap: 6px   ;
 }
 
+.Layouts_banners {
+    overflow:hidden;
+    width: 100%;
+    height: 100%;
+}
+
+.layout_img2 img{
+    width: 100% ;
+    height: 100% ;
+    object-fit: cover;
+}
+
 .banner {
+    width: 100%;
+    height: 100%;
     border-radius: 2px;
     overflow: hidden;
-    position: relative;
     cursor: pointer;
 }
 
-.Layouts_banners{
-    display: flex;
-}
 
 .banner_img {
     width: 100%;
     height: 100%;
+    object-fit:cover;
 }
-
-.banner_img2 {
-    width: 100%;
-    height: 100%;
-}
-
 
 .banner-L{
     position: relative;
@@ -859,11 +864,11 @@
     position: absolute;
     top :50%;
     left:0;
-    transform: translate(0, -60%);
+    transform: translate(0, -70%);
 }
 
 .fire_img{
-    width: 20px;
+    width: 22px;
     height: 24px;
 }   
 
@@ -1723,5 +1728,4 @@
 .address-shopee{
     margin-top: 8px;
 }
-
 
