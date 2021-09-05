@@ -242,6 +242,8 @@
 .Header_User-item:hover {
     background-color: rgba(184, 178, 173, 0.1);
     color: rgb(70, 180, 70);
+    transform: scale(1.01);
+    transition: all 0.0001s ease;
 }
 
 .Header_User-item{
@@ -314,6 +316,11 @@
     position: relative;
     width: 13.8rem;
     height: 5.9rem;
+}
+
+.Cover_cart:hover {
+    transform: all 0.05s ease;
+    transform: scale(1.1);
 }
 
 .Cart_icon {
@@ -753,6 +760,8 @@
 }
 
 .Product-s{
+    position: relative;
+    top: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -766,7 +775,9 @@
 
 .Product-s:hover {
     cursor: pointer;
-    box-shadow: 1px 0.8px 1.8px rgba(150, 140, 141, 0.8);
+    box-shadow: 1px 0.8px 1.8px rgb(150 140 141 / 80%);
+    transition: top linear 0.03s;
+    top: -2px;
 }
 
 .product-s-img{
@@ -1334,6 +1345,8 @@
 .btn_view-add:hover{
     background-color: #00000005;   
     cursor: pointer;
+    transform: scale(1.03);
+    transition: all 0.0001s ease;
 }
 
 
