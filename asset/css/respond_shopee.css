@@ -1257,6 +1257,7 @@
 
     .sub_banners{
         padding: 10px;
+        gap: 16px;
     }
 
     .Name_product-area6{
