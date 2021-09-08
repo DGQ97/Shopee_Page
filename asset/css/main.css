@@ -1,12 +1,12 @@
 
-.main {
+.main{
     width: 100%;
     height: 100%;
     display: block;
 }
 /* Navbar */
 
-#Header {
+#Header{
     position: fixed;
     display: block;
     width: 100%;
@@ -29,29 +29,29 @@
 
 
 /* Vì thẻ Ul mặc đinh paddingleft: 40px . nên phải chỉnh lại  */
-.Header__list-nav {
+.Header__list-nav{
     padding-left: 0;
 }
 
-.Header_list {
+.Header_list{
     list-style-type: none;  
     position: relative;
     display: inline-block;
 }
 
-.Header_list:not(:last-child):after {
+.Header_list:not(:last-child):after{
     content: "";
     padding-right: 1rem;
     padding-left: 1rem;
 }
     
-.Header_item {
+.Header_item{
     color: var(--white-color);
     font-size: 1.3rem;
     text-decoration: none;
 }
 
-.Header_item:hover {
+.Header_item:hover{
     cursor: pointer;
     color: rgba(255, 255, 255, 0.7);
 }
@@ -130,21 +130,21 @@
 }
 
 
-@keyframes Fadein {
-    0% {
+@keyframes Fadein{
+    0%{
         opacity: 0;
     }
-    100% {
+    100%{
         opacity: 1;
     }
  }
-@keyframes growth {
-    0% {
+@keyframes growth{
+    0%{
         transform:scale(0);
         opacity: 0;
     }
 
-    100% {
+    100%{
         transform:scale(1);
         opacity: 1;
     }   
@@ -172,7 +172,7 @@
     cursor: text;
 }
 
-#Header .Header_notify-content {
+#Header .Header_notify-content{
     display: flex;
     padding: 1rem 1.4rem;
 }
@@ -187,19 +187,19 @@
 
 
 
-.Header_notify-img {
+.Header_notify-img{
     flex-basis: 10%;
     height: 4rem;
     width: 4rem;
 }
 
-#Header .Header_notify-disc {
+#Header .Header_notify-disc{
     padding-left: 0.6rem;
     padding-right: 0.8rem;
     flex-basis: 90%;
 }
 
-#Header .Header_notify-item-title {
+#Header .Header_notify-item-title{
     font-size: 1.35rem;
     font-weight: 410;
     padding-bottom: 0.4rem;
@@ -207,7 +207,7 @@
 
 
 }
-#Header .Header_notify-item-disc {
+#Header .Header_notify-item-disc{
     font-size: 1.1rem;
     color: rgba(0, 0, 0, 0.54);
     word-wrap: break-word;     /*chức năng k tràn chử ra box đã set*/
@@ -239,7 +239,7 @@
     list-style: none;
 }
 
-.Header_User-item:hover {
+.Header_User-item:hover{
     background-color: rgba(184, 178, 173, 0.1);
     color: rgb(70, 180, 70);
     transform: scale(1.01);
@@ -263,7 +263,7 @@
 
 /* Row__Search__Begin */
 
-.Header_with_Search {
+.Header_with_Search{
     display: flex;
     align-items: center;
     width: 100%;
@@ -318,12 +318,12 @@
     height: 5.9rem;
 }
 
-.Cover_cart:hover {
-    transform: all 0.05s ease;
+.Cover_cart:hover{
+    transition: all 0.05s ease;
     transform: scale(1.1);
 }
 
-.Cart_icon {
+.Cart_icon{
     display: block;
     font-size: 3.5rem;
     color: var(--white-color);
@@ -351,7 +351,7 @@
     opacity: 0.8;
     cursor: pointer;
 }
-.Search__button {
+.Search__button{
     display: flex;
     width: 6.0rem;
     height: 3.4rem;
@@ -360,7 +360,7 @@
     border-radius: 0.3rem;
 }
 
-.Search__button-icon {
+.Search__button-icon{
     margin: auto; 
     font-size: 1.4rem;
     color: var(--white-color);
@@ -384,7 +384,7 @@
     cursor: pointer;
 }
 
-.History_page {
+.History_page{
     display: none;
     position: absolute;
     height: 16rem;
@@ -396,18 +396,18 @@
     z-index: 100;
 }
 
-.History_list {
+.History_list{
     display: flex;
     flex-direction: column;
 }
 
-.history_click:hover {
+.history_click:hover{
     background-color: #f8f8f8;
     border-radius: 2px;
 }
 
 
-.history_click {
+.history_click{
     display: flex;
     align-items: center;
     list-style-type: none;
@@ -418,7 +418,7 @@
     
 }
 
-.support_flex {
+.support_flex{
     display: flex;
     justify-content: space-between;
     justify-items: center;
@@ -430,7 +430,7 @@
 
 
 /* Content - Section */
-.Content {
+.Content{
     display: block;
     width: 100%;
     margin-top: calc(var(--height-search) + var(--height-nav));
@@ -461,7 +461,7 @@
 
 /* Area__1 __ Slider*/
 
-.Banners {
+.Banners{
     height: inherit;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -470,19 +470,19 @@
     grid-gap: 6px   ;
 }
 
-.Layouts_banners {
+.Layouts_banners{
     overflow:hidden;
     width: 100%;
     height: 100%;
 }
 
-.layout_img2 img{
+.img-slide img{
     width: 100% ;
     height: 100% ;
     object-fit: cover;
 }
 
-.banner {
+.banner{
     width: 100%;
     height: 100%;
     border-radius: 2px;
@@ -491,7 +491,7 @@
 }
 
 
-.banner_img {
+.banner_img{
     width: 100%;
     height: 100%;
     object-fit:cover;
@@ -526,7 +526,7 @@
     flex : 1;
 }
 
-.sub_banner-item:hover {
+.sub_banner-item:hover{
     opacity: 1;
     transform: translateY(-1.5px);
 
@@ -576,7 +576,7 @@
     width: 100%;
 }
 
-.Homepage_Content {
+.Homepage_Content{
     display: block;
     position: relative;
     width: inherit;
@@ -613,7 +613,7 @@
     cursor: text;
 }
 
-.Name_lable2 {
+.Name_lable2{
     display: flex;
     align-items: center;
     font-size: 12px;
@@ -645,7 +645,7 @@
 }
 
 
-.product_img {
+.product_img{
     width: 100%;
     height: 100%;
     margin: 0 1px 15px;
@@ -705,7 +705,7 @@
     line-height: 1.4;
 }
 
-.discount-price {
+.discount-price{
     color: #EE4D2D;
 }
 
@@ -717,7 +717,7 @@
         display: block  ;
 }
 
-.Good_footer {
+.Good_footer{
     width: 100%;
     overflow :hidden;
 }
@@ -740,7 +740,7 @@
     background-color: var(--white-color);
 }
 
-.List_Product_items {
+.List_Product_items{
     display: grid;
     grid-template-columns: repeat(10, 1fr);
     grid-template-rows: 1fr 1fr;
@@ -773,7 +773,7 @@
     animation: Fadein2 linear 0.2s;
 }
 
-.Product-s:hover {
+.Product-s:hover{
     cursor: pointer;
     box-shadow: 1px 0.8px 1.8px rgb(150 140 141 / 80%);
     transition: top linear 0.03s;
@@ -811,7 +811,7 @@
     object-fit: contain;
 }
 
-.border_top {
+.border_top{
     border-top: 1px solid rgb(242, 242, 242);
 }
 
@@ -822,7 +822,7 @@
     height: 173px;
 }
 
-.product_Freeship_Xtra {
+.product_Freeship_Xtra{
     position: absolute;
     width: inherit;
     height: inherit;
@@ -840,7 +840,7 @@
 
 }
 
-.Percentage_saled {
+.Percentage_saled{
     margin-top: 4px;
     position: relative;
     width: 100%;
@@ -863,7 +863,7 @@
 }
 
 
-.Percent_fire {
+.Percent_fire{
     content: "";
     position: absolute;
     top :50%;
@@ -881,7 +881,7 @@
 }
 
 
-.Baner_Area4 {
+.Baner_Area4{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr ;
     grid-template-rows: 110px ;
@@ -894,7 +894,7 @@
 
 /* List_Area5 */
 
-.List_Products-Area5 {
+.List_Products-Area5{
     width: 100%;
     height: 172px;
     background-color: #fff;
@@ -902,7 +902,7 @@
 }
 
 .List_Area6_header,
-.List_Area5_header {
+.List_Area5_header{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -982,21 +982,21 @@
 /* Lookfor-Priority-Area6 */
 
 
-.Look-for-Priority-Area6 {
+.Look-for-Priority-Area6{
     display: block;
     width: 100%;
     background-color: var(--white-color);
     margin-bottom: 20px;
 }
 
-.Label_Content-area6 {
+.Label_Content-area6{
    display: grid;
    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
    grid-template-rows: 100%;
    border-top: 2px solid rgb(242, 242, 242);
 }
 
-.Content_items_area6 {
+.Content_items_area6{
     position: relative;
     display: flex;
     align-items: center;
@@ -1005,7 +1005,7 @@
     padding: 20px 10px;
 }
 
-.image-center-area6 {
+.image-center-area6{
     width: 100%;
     height: 100%;
     flex-shrink: 0;
@@ -1022,7 +1022,7 @@
 }
 
 
-.label_Top-area6 {
+.label_Top-area6{
     display: block;
     position: absolute;
     width: 32px;
@@ -1360,7 +1360,7 @@
     right: 0;
 }
 
-.Role-content {
+.Role-content{
     width: 100%;
     margin-top: 60px;
     margin-bottom: 60px;
@@ -1370,20 +1370,20 @@
     padding: 5px 0;
     font-weight: 700;
 }
-.Role-content > span {
+.Role-content > span{
     margin: 10px 0;
     font-size: 12px;
     line-height: 1.4;
     cursor: text;
 }
 
-.Role-content > span a {
+.Role-content > span a{
     color: #1155cc;
     cursor: pointer;
 }
 
 
-.Category {
+.Category{
     border-top: 1px solid #ccc;
     padding-top: 60px;
     padding-bottom: 85px;
@@ -1407,7 +1407,7 @@
 .text-social:hover,
 .about_item:hover,
 .list-N:hover,
-.Title_first:hover {
+.Title_first:hover{
     color: #EE4D2D;
     cursor: pointer;
 
@@ -1483,50 +1483,50 @@
 }
 
 
-.visa-card {
+.visa-card{
     background-size: 1347.2727272727273% 983.3333333333334%;
     background-position: 84.6938775510204% 6.289308176100629%;
     width: 55px; height: 18px;
 }
 
-.mastercard {
+.mastercard{
     background-size: 1347.2727272727273% 610.3448275862069%;
     background-position: 49.416909620991255% 41.891891891891895%;
     width: 55px; height: 29px;
 }
 
-.jcb-car {
+.jcb-car{
     background-size: 1347.2727272727273% 769.5652173913044%;
     background-position: 38.48396501457726% 38.311688311688314%;
     width: 55px; height: 23px;
 }
 
-.blue-card {
+.blue-card{
     background-size: 1482% 804.5454545454545%;
     background-position: 1.447178002894356% 6.451612903225806%;
     width: 55px; height: 24px;
 }
 
-.COD-card {
+.COD-card{
     background-size: 1482% 610.3448275862069%;
     background-position: 59.91316931982634% 63.513513513513516%;
     width: 50px; height: 29px;
 }
 
-.gop-card {
+.gop-card{
     background-size: 1347.2727272727273% 610.3448275862069%;
     background-position: 19.97084548104956% 66.21621621621621%;
     width: 55px; height: 29px;
 }
 
-.shopee-pay {
+.shopee-pay{
     background-size: 741% 931.578947368421%;
     background-position: 71.9188767550702% 6.329113924050633%;
     width: 55px; height: 12px;
 }
 
 
-.Shopee-Ex {
+.Shopee-Ex{
     background-size: 667.5675675675676% 983.3333333333334%;
     background-position: 65.71428571428571% 35.22012578616352%;
     width: 55px; height: 10px;
@@ -1534,7 +1534,7 @@
 }
 
 
-.Giao-tk-ex {
+.Giao-tk-ex{
     background-size: 1347.2727272727273% 983.3333333333334%;
     background-position: 19.97084548104956% 37.735849056603776%;
     width: 55px; height: 18px;
@@ -1542,7 +1542,7 @@
 }
 
 
-.GHN-ex {
+.GHN-ex{
     background-size: 1347.2727272727273% 610.3448275862069%;
     background-position: 9.037900874635568% 40.54054054054054%;
     width: 55px; height: 29px;
@@ -1550,48 +1550,48 @@
 }
 
 
-.Vt-post {
+.Vt-post{
     background-size: 578.90625% 138.28125%;
     background-position: 88.90701468189233% 100%;
     width: 55px; height: 40px;
 }
 
 
-.VN-post {
+.VN-post{
     background-size: 1347.2727272727273% 655.5555555555555%;
     background-position: 1.4577259475218658% 72.66666666666667%;
     width: 55px; height: 27px;
 }
 
 
-.JT-post {
+.JT-post{
     background-size: 1347.2727272727273% 1106.25%;
     background-position: 95.6268221574344% 6.211180124223603%;
     width: 55px; height: 16px;
 }
 
 
-.Grab-Ex {
+.Grab-Ex{
     background-size: 552.9850746268656% 610.3448275862069%;
     background-position: 29.9835255354201% 6.756756756756757%;
     width: 55px; height: 15px;
 }
 
 
-.ninja-ex {
+.ninja-ex{
     background-size: 1235% 680.7692307692307%;
     background-position: 55.947136563876654% 6.622516556291391%;
     width: 55px; height: 15px;
 }
 
 
-.best-Ex {
+.best-Ex{
     background-size: 1029.1666666666667% 590%;
     background-position: 13.452914798206278% 6.802721088435374%;
     width: 55px; height: 15px;
 }
 
-.Fb {
+.Fb{
     background-size: 2315.625% 553.125%;
     background-position: 1.4104372355430184% 35.86206896551724%;
 }
@@ -1628,7 +1628,7 @@
 
 }
 
-.about_QR {
+.about_QR{
     width: 86px;
     height: 86px;
     margin-right: 15px;
@@ -1651,7 +1651,7 @@
 }
 
 .Nationals,
-.Save-condition {
+.Save-condition{
     cursor: text;
 }
 
@@ -1681,7 +1681,7 @@
     cursor: pointer;
 }
 
-.title_terms::after {
+.title_terms:not(:last-child)::after{
     position: absolute;
     content: "";
     height: 14px;
@@ -1731,6 +1731,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
 }
 
 .address-shopee{
