@@ -1221,8 +1221,8 @@
 
     .sub_banners,
     .List_Product_items{
-        grid-auto-columns: 27%;
-        grid-row-gap: 20px;
+        grid-auto-columns: 34%;
+        grid-row-gap: 28px;
     }
 
     .List_Products-S{
@@ -1366,7 +1366,5 @@
         display: unset;
     
     }
-
-
-
+    
 } 
