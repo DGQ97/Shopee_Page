@@ -433,7 +433,7 @@
 .Content{
     display: block;
     width: 100%;
-    margin-top: calc(var(--height-search) + var(--height-nav));
+    margin-top: var(--Header-height);
 }   
 
 .Home_page-out{
