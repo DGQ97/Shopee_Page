@@ -1059,6 +1059,7 @@
 /* Content_main */
 
 .Container-main{
+    position: relative;
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -1066,6 +1067,9 @@
 }
 
 .Header_content-main{
+    position: sticky;
+    top: var(--Header-height);
+    z-index: 9;
     width: 100%;    
     height: 61px;
     background-color: var(--white-color);
