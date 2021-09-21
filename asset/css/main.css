@@ -1185,7 +1185,8 @@
 .Banner_main::before{
     position: absolute;
     content: "";
-    border-width: 2px 2px 2px 2px;
+    border-width: 3px 3px 2px 3px;
+    filter: brightness(70%);
     border-style: solid;
     border-color: brown transparent transparent transparent;
     transform: rotate(-135deg);
@@ -1208,7 +1209,8 @@
 .Banner_main2::before{
     position: absolute;
     content: "";
-    border-width: 2px 2px 2px 2px;
+    border-width: 2px 3px 2px 3px;
+    filter: brightness(70%);
     border-style: solid;
     border-color: #f25220 transparent transparent transparent;
     transform: rotate(-135deg);
