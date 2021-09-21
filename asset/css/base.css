@@ -7,7 +7,7 @@
     --text-place-holder: #fafafa;
 
     --height-nav : 3.4rem;
-    --height-search : calc(var(--Header-height)-var(--height-nav));;
+    --height-search : calc(var(--Header-height)-var(--height-nav));
     --Header-height : 12rem; 
     
     --font-span1-8:  0.8rem;

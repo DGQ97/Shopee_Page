@@ -151,15 +151,14 @@
 }
 
 
-
-#Header .Header__notify{
+.Header__notify{
     width: 40rem;
     height: 55.0rem;
     background-color: var(--white-color);   
 
 }
 
-#Header .Header__notify-title{
+.Header__notify-title{
     
     display: flex;
     width: 100%;
@@ -172,14 +171,14 @@
     cursor: text;
 }
 
-#Header .Header_notify-content{
+.Header_notify-content{
     display: flex;
     padding: 1rem 1.4rem;
 }
 
 
 
-#Header .Header_notify-content:hover
+.Header_notify-content:hover
 {
     background-color: #f8f8f8;
     cursor: pointer;
@@ -193,13 +192,13 @@
     width: 4rem;
 }
 
-#Header .Header_notify-disc{
+.Header_notify-disc{
     padding-left: 0.6rem;
     padding-right: 0.8rem;
     flex-basis: 90%;
 }
 
-#Header .Header_notify-item-title{
+.Header_notify-item-title{
     font-size: 1.35rem;
     font-weight: 410;
     padding-bottom: 0.4rem;
@@ -207,7 +206,7 @@
 
 
 }
-#Header .Header_notify-item-disc{
+.Header_notify-item-disc{
     font-size: 1.1rem;
     color: rgba(0, 0, 0, 0.54);
     word-wrap: break-word;     /*chức năng k tràn chử ra box đã set*/

@@ -1,18 +1,5 @@
  /* > PC size-L  from 1024px to 1239px */
  @media (min-width: 768px) and (max-width: 1200px){
-    :root{
-        --height-nav : 3.4rem;
-        --height-search : 8.6rem;
-        --Header-height : calc(var(--height-nav)+var(--height-search)); 
-    
-    
-        --font-span1-8:  1rem;
-        --font-span2-10: 1rem;
-        --font-span3-12: 1.2rem;
-        --font-title1: 1.2rem;
-        --font-title2: 1.4rem;
-        --font-title3: 1.6rem;    
-    } 
     
     .grid
    {
@@ -21,7 +8,10 @@
         /* max-width:990px; */
         margin: 0 auto;
     }
- 
+
+    .History_page,
+    .Header_list:hover .Notify,
+    .Header_list:hover .QR_code,
     .Ipad_Pro-none,
     .banner-outsize{
         display: none;
@@ -59,8 +49,8 @@
     }
  
     .History_page{
-        width: 554px;
-        top: 36px;
+        width: 740px;
+        top: 35px;
     }
     
     .Search__button{
@@ -481,11 +471,6 @@
 
  
  
- 
- 
-
-
-
 
 
 /* LAptop*/
@@ -493,20 +478,9 @@
 
 @media (max-width : 992px){
 
-    :root{
-        --height-nav : 3.4rem;
-        --height-search : 8.6rem;
-        --Header-height : calc(var(--height-nav)+var(--height-search)); 
-    
-    
-        --font-span1-8:  0.8rem;
-        --font-span2-10: 1rem;
-        --font-span3-12: 1.2rem;
-        --font-title1: 1.2rem;
-        --font-title2: 1.4rem;
-        --font-title3: 1.6rem;    
-    }
-
+    .type_search:focus ~ .History_page,
+    .Header_list:hover .Notify,
+    .Header_list:hover .QR_code,
     .banner,
     .Laptop_none{
         display:none;
@@ -559,10 +533,6 @@
 
     .Search___history{
         display: none;
-    }
-
-    .Header_with_Search{
-        padding: 0;
     }
 
     .Header_list:not(:last-child):after{
@@ -1056,18 +1026,6 @@
  
  /* >=  mobile => 480px */
 @media (max-width: 480px){
-    :root{
-        --height-nav : 3.4rem;
-        --height-search : 8.6rem;
-        --Header-height : calc(var(--height-nav)+var(--height-search)); 
-    
-        --font-span1-8:  1rem;
-        --font-span2-10: 1rem;
-        --font-span3-12: 1.2rem;
-        --font-title1: 1.2rem;
-        --font-title2: 1.4rem;
-        --font-title3: 1.6rem;    
-    } 
 
 
     .grid
@@ -1082,7 +1040,8 @@
         display: none !important ;
     }
 
-    
+    .Header_list:hover .Notify,
+    .Header_list:hover .QR_code,
     .banner,
     .banner-outsize,
     .Terms-conditions,
@@ -1096,9 +1055,6 @@
         background: #fd6032 url("https://cf.shopee.vn/file/1c3ed3868e30927512fc02b3e75840f2") top center /contain no-repeat;
     }
 
-    .Content{
-        margin-top: 86px;
-    }
 
     .Home_page-out{
         display: flex;
@@ -1158,7 +1114,7 @@
     }
 
     .type_search{
-        font-size: 1.2rem;
+        font-size: 1.1rem;
     }
 
     .header_logo,
@@ -1173,7 +1129,7 @@
     .Cover_cart{
         position: absolute;
         right: 0;
-        bottom: 0;
+        top: 58px;
         width: 70px;
         height: 42px;
     }
